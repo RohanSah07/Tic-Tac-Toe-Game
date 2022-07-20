@@ -110,3 +110,17 @@ button{
 button:hover{
     background-color: lightblue;
 }
+
+@media (max-width:500px){
+    .reset{
+        justify-content: center;
+        margin: auto;
+        
+    }
+    .playground{
+        height: 350px;
+        width: 350px;    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
